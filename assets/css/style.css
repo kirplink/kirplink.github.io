@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/circles-light.png");
+}
+
+p {
+    line-height: 1.6;
+    margin: 8px;
+}
+
+.heading-font {
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+.arial-font {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+header {
+    background-color: #ffffff;
+    min-width: 540px;
+    width: 100vw;
+    border-bottom: 2px solid #cccccc;
+}
+
+.topnav {
+    margin: 0 auto;
+    width: 100vw;
+    min-width: 540px;
+    max-width: 960px;
+    background-color: #ffffff;
+}
+
+.nav-heading {
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 14px;
+    height: 28px;
+}
+
+.heading-space {
+    display: inline-block;
+    margin: 0 auto;
+    width: calc(100vw - 510px);
+    max-width: 450px;
+    min-width: 20px;
+}
+
+.topnav a {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 16px;
+    margin-top: 14px 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.topnav a:hover {
+    border-bottom: 2px solid #666666;
+}
+
+.nav-link {
+    border-right: 1px solid #cccccc;
+}
+
+.active-link {
+    border-bottom: 2px solid #4aaaa5;
+}
+
+
+.about {
+    color: #4aaaa5;
+    margin-bottom: 10px;
+}
+
+hr {
+    height: 2px;
+    background-color: #dddddd;
+    border: 0 none;
+    margin-bottom: 10px;
+}
+
+#headshot {
+    width: 16.2%;
+    float: left;
+    margin: 10px;
+}
+
+.main-body {
+    margin: 15px auto;
+    clear: both;
+    width: 85vw;
+    min-width: 500px;
+    max-width: 930px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #dddddd;
+    border-radius: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #666666af;
+    border-radius: 5px;
+}
+
+#message-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 200px;
+    border: 1px solid #666666af;
+    border-radius: 5px;
+}
+
+#message-input:focus {
+    outline: none;
+    border: 2px solid #666666;
+    
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #666666;
+    padding: 11px 18px;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input::-webkit-input-placeholder { color: #cccccc; }
+input::-moz-placeholder {color: #cccccc; }
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:active {
+   transform: scale(.95); 
+   
+}
+
+button:focus {
+    outline: none;
+}
+
+
+
+.img-container {
+    position: relative;
+    text-align: center;
+    width: 279px;
+    height: 186px;
+    color: #ffffff;
+    display: inline-block;
+    margin: 14px;
+    transition: transform 0.08s;
+    box-shadow: 3px 5px #dddddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img-container:hover {
+    transform: scale(1.02);
+}
+
+.img-container:active {
+    transform: scale(0.98);
+}
+
+.end-float {
+    clear: both;
+}
+
+.img-label {
+    width: 279px;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 70%;
+}
+
+.port-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: #666666;
+    min-width: 540px;
+    width: 100vw;
+    height: 45px;
+    border-top: 5px solid #4aaaa5;
+}
+
+.portfolio-body {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    
+    
+}
+
